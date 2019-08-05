@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D319DB7B1A3EF0515F9A45 /* Pods_BabylonDemo_MVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415C230D479DA889EFC51A1 /* Pods_BabylonDemo_MVC.framework */; };
+		3C383CEC22F82D90005AE189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CEB22F82D90005AE189 /* AppDelegate.swift */; };
+		3C383CEE22F82D90005AE189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CED22F82D90005AE189 /* ViewController.swift */; };
+		3C383CF122F82D90005AE189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CEF22F82D90005AE189 /* Main.storyboard */; };
+		3C383CF422F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CF222F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld */; };
+		3C383CF622F82D96005AE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CF522F82D96005AE189 /* Assets.xcassets */; };
+		3C383CF922F82D96005AE189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CF722F82D96005AE189 /* LaunchScreen.storyboard */; };
+		3C383D0422F82D96005AE189 /* BabylonDemo_MVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383D0322F82D96005AE189 /* BabylonDemo_MVCTests.swift */; };
+		3C383D0F22F82D96005AE189 /* BabylonDemo_MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383D0E22F82D96005AE189 /* BabylonDemo_MVCUITests.swift */; };
+		78F759B297AC33AA1C9413A0 /* Pods_BabylonDemo_MVCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9C6E2ECD1C7B84CAC5DAD8 /* Pods_BabylonDemo_MVCUITests.framework */; };
+		E290B672E066402725974088 /* Pods_BabylonDemo_MVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C4D192B37028D24CE89DA /* Pods_BabylonDemo_MVCTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C383D0022F82D96005AE189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C383CE022F82D90005AE189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C383CE722F82D90005AE189;
+			remoteInfo = "BabylonDemo-MVC";
+		};
+		3C383D0B22F82D96005AE189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C383CE022F82D90005AE189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C383CE722F82D90005AE189;
+			remoteInfo = "BabylonDemo-MVC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0636C84501919AE1DC24D233 /* Pods-BabylonDemo-MVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCUITests.release.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCUITests/Pods-BabylonDemo-MVCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BD509FF00A662A77AFA75DD /* Pods-BabylonDemo-MVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVC.debug.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVC/Pods-BabylonDemo-MVC.debug.xcconfig"; sourceTree = "<group>"; };
+		2415C230D479DA889EFC51A1 /* Pods_BabylonDemo_MVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonDemo_MVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C383CE822F82D90005AE189 /* BabylonDemo-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BabylonDemo-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C383CEB22F82D90005AE189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C383CED22F82D90005AE189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C383CF022F82D90005AE189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C383CF322F82D90005AE189 /* BabylonDemo_MVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabylonDemo_MVC.xcdatamodel; sourceTree = "<group>"; };
+		3C383CF522F82D96005AE189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C383CF822F82D96005AE189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C383CFA22F82D96005AE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C383CFF22F82D96005AE189 /* BabylonDemo-MVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabylonDemo-MVCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C383D0322F82D96005AE189 /* BabylonDemo_MVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabylonDemo_MVCTests.swift; sourceTree = "<group>"; };
+		3C383D0522F82D96005AE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C383D0A22F82D96005AE189 /* BabylonDemo-MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabylonDemo-MVCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C383D0E22F82D96005AE189 /* BabylonDemo_MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabylonDemo_MVCUITests.swift; sourceTree = "<group>"; };
+		3C383D1022F82D96005AE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E50B507C7D9EC5A2706243 /* Pods-BabylonDemo-MVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCUITests.debug.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCUITests/Pods-BabylonDemo-MVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69DCECB17CCD2DA3CB34123F /* Pods-BabylonDemo-MVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCTests.release.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCTests/Pods-BabylonDemo-MVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		B13C4D192B37028D24CE89DA /* Pods_BabylonDemo_MVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonDemo_MVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2731AFDFA22DF6AFA61B51 /* Pods-BabylonDemo-MVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVC.release.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVC/Pods-BabylonDemo-MVC.release.xcconfig"; sourceTree = "<group>"; };
+		EB9C6E2ECD1C7B84CAC5DAD8 /* Pods_BabylonDemo_MVCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonDemo_MVCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD14D07E3E4DE2C37C996AB /* Pods-BabylonDemo-MVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCTests.debug.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCTests/Pods-BabylonDemo-MVCTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C383CE522F82D90005AE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D319DB7B1A3EF0515F9A45 /* Pods_BabylonDemo_MVC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383CFC22F82D96005AE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E290B672E066402725974088 /* Pods_BabylonDemo_MVCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383D0722F82D96005AE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F759B297AC33AA1C9413A0 /* Pods_BabylonDemo_MVCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182B87F134A7D677FD31F2D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2415C230D479DA889EFC51A1 /* Pods_BabylonDemo_MVC.framework */,
+				B13C4D192B37028D24CE89DA /* Pods_BabylonDemo_MVCTests.framework */,
+				EB9C6E2ECD1C7B84CAC5DAD8 /* Pods_BabylonDemo_MVCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C383CDF22F82D90005AE189 = {
+			isa = PBXGroup;
+			children = (
+				3C383CEA22F82D90005AE189 /* BabylonDemo-MVC */,
+				3C383D0222F82D96005AE189 /* BabylonDemo-MVCTests */,
+				3C383D0D22F82D96005AE189 /* BabylonDemo-MVCUITests */,
+				3C383CE922F82D90005AE189 /* Products */,
+				57017040CEA38265BD10FF13 /* Pods */,
+				182B87F134A7D677FD31F2D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C383CE922F82D90005AE189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C383CE822F82D90005AE189 /* BabylonDemo-MVC.app */,
+				3C383CFF22F82D96005AE189 /* BabylonDemo-MVCTests.xctest */,
+				3C383D0A22F82D96005AE189 /* BabylonDemo-MVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C383CEA22F82D90005AE189 /* BabylonDemo-MVC */ = {
+			isa = PBXGroup;
+			children = (
+				3C383CEB22F82D90005AE189 /* AppDelegate.swift */,
+				3C383CED22F82D90005AE189 /* ViewController.swift */,
+				3C383CEF22F82D90005AE189 /* Main.storyboard */,
+				3C383CF522F82D96005AE189 /* Assets.xcassets */,
+				3C383CF722F82D96005AE189 /* LaunchScreen.storyboard */,
+				3C383CFA22F82D96005AE189 /* Info.plist */,
+				3C383CF222F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld */,
+			);
+			path = "BabylonDemo-MVC";
+			sourceTree = "<group>";
+		};
+		3C383D0222F82D96005AE189 /* BabylonDemo-MVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C383D0322F82D96005AE189 /* BabylonDemo_MVCTests.swift */,
+				3C383D0522F82D96005AE189 /* Info.plist */,
+			);
+			path = "BabylonDemo-MVCTests";
+			sourceTree = "<group>";
+		};
+		3C383D0D22F82D96005AE189 /* BabylonDemo-MVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C383D0E22F82D96005AE189 /* BabylonDemo_MVCUITests.swift */,
+				3C383D1022F82D96005AE189 /* Info.plist */,
+			);
+			path = "BabylonDemo-MVCUITests";
+			sourceTree = "<group>";
+		};
+		57017040CEA38265BD10FF13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BD509FF00A662A77AFA75DD /* Pods-BabylonDemo-MVC.debug.xcconfig */,
+				DD2731AFDFA22DF6AFA61B51 /* Pods-BabylonDemo-MVC.release.xcconfig */,
+				FCD14D07E3E4DE2C37C996AB /* Pods-BabylonDemo-MVCTests.debug.xcconfig */,
+				69DCECB17CCD2DA3CB34123F /* Pods-BabylonDemo-MVCTests.release.xcconfig */,
+				54E50B507C7D9EC5A2706243 /* Pods-BabylonDemo-MVCUITests.debug.xcconfig */,
+				0636C84501919AE1DC24D233 /* Pods-BabylonDemo-MVCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C383CE722F82D90005AE189 /* BabylonDemo-MVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C383D1322F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVC" */;
+			buildPhases = (
+				A0D78590853045259F5ED8A7 /* [CP] Check Pods Manifest.lock */,
+				3C383CE422F82D90005AE189 /* Sources */,
+				3C383CE522F82D90005AE189 /* Frameworks */,
+				3C383CE622F82D90005AE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BabylonDemo-MVC";
+			productName = "BabylonDemo-MVC";
+			productReference = 3C383CE822F82D90005AE189 /* BabylonDemo-MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C383CFE22F82D96005AE189 /* BabylonDemo-MVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C383D1622F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVCTests" */;
+			buildPhases = (
+				3C211A8C25C6B6840572F9C0 /* [CP] Check Pods Manifest.lock */,
+				3C383CFB22F82D96005AE189 /* Sources */,
+				3C383CFC22F82D96005AE189 /* Frameworks */,
+				3C383CFD22F82D96005AE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C383D0122F82D96005AE189 /* PBXTargetDependency */,
+			);
+			name = "BabylonDemo-MVCTests";
+			productName = "BabylonDemo-MVCTests";
+			productReference = 3C383CFF22F82D96005AE189 /* BabylonDemo-MVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C383D0922F82D96005AE189 /* BabylonDemo-MVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C383D1922F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVCUITests" */;
+			buildPhases = (
+				3DB9FED7338F635B89571484 /* [CP] Check Pods Manifest.lock */,
+				3C383D0622F82D96005AE189 /* Sources */,
+				3C383D0722F82D96005AE189 /* Frameworks */,
+				3C383D0822F82D96005AE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C383D0C22F82D96005AE189 /* PBXTargetDependency */,
+			);
+			name = "BabylonDemo-MVCUITests";
+			productName = "BabylonDemo-MVCUITests";
+			productReference = 3C383D0A22F82D96005AE189 /* BabylonDemo-MVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C383CE022F82D90005AE189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = DanilovDev;
+				TargetAttributes = {
+					3C383CE722F82D90005AE189 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3C383CFE22F82D96005AE189 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3C383CE722F82D90005AE189;
+					};
+					3C383D0922F82D96005AE189 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3C383CE722F82D90005AE189;
+					};
+				};
+			};
+			buildConfigurationList = 3C383CE322F82D90005AE189 /* Build configuration list for PBXProject "BabylonDemo-MVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C383CDF22F82D90005AE189;
+			productRefGroup = 3C383CE922F82D90005AE189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C383CE722F82D90005AE189 /* BabylonDemo-MVC */,
+				3C383CFE22F82D96005AE189 /* BabylonDemo-MVCTests */,
+				3C383D0922F82D96005AE189 /* BabylonDemo-MVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C383CE622F82D90005AE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C383CF922F82D96005AE189 /* LaunchScreen.storyboard in Resources */,
+				3C383CF622F82D96005AE189 /* Assets.xcassets in Resources */,
+				3C383CF122F82D90005AE189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383CFD22F82D96005AE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383D0822F82D96005AE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C211A8C25C6B6840572F9C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabylonDemo-MVCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB9FED7338F635B89571484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabylonDemo-MVCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D78590853045259F5ED8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabylonDemo-MVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C383CE422F82D90005AE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C383CEE22F82D90005AE189 /* ViewController.swift in Sources */,
+				3C383CEC22F82D90005AE189 /* AppDelegate.swift in Sources */,
+				3C383CF422F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383CFB22F82D96005AE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C383D0422F82D96005AE189 /* BabylonDemo_MVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C383D0622F82D96005AE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C383D0F22F82D96005AE189 /* BabylonDemo_MVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C383D0122F82D96005AE189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C383CE722F82D90005AE189 /* BabylonDemo-MVC */;
+			targetProxy = 3C383D0022F82D96005AE189 /* PBXContainerItemProxy */;
+		};
+		3C383D0C22F82D96005AE189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C383CE722F82D90005AE189 /* BabylonDemo-MVC */;
+			targetProxy = 3C383D0B22F82D96005AE189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C383CEF22F82D90005AE189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C383CF022F82D90005AE189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C383CF722F82D96005AE189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C383CF822F82D96005AE189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C383D1122F82D96005AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C383D1222F82D96005AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C383D1422F82D96005AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD509FF00A662A77AFA75DD /* Pods-BabylonDemo-MVC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C383D1522F82D96005AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2731AFDFA22DF6AFA61B51 /* Pods-BabylonDemo-MVC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C383D1722F82D96005AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD14D07E3E4DE2C37C996AB /* Pods-BabylonDemo-MVCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonDemo-MVC.app/BabylonDemo-MVC";
+			};
+			name = Debug;
+		};
+		3C383D1822F82D96005AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DCECB17CCD2DA3CB34123F /* Pods-BabylonDemo-MVCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonDemo-MVC.app/BabylonDemo-MVC";
+			};
+			name = Release;
+		};
+		3C383D1A22F82D96005AE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E50B507C7D9EC5A2706243 /* Pods-BabylonDemo-MVCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BabylonDemo-MVC";
+			};
+			name = Debug;
+		};
+		3C383D1B22F82D96005AE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0636C84501919AE1DC24D233 /* Pods-BabylonDemo-MVCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9F5S24X43;
+				INFOPLIST_FILE = "BabylonDemo-MVCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danilovdev.BabylonDemo-MVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BabylonDemo-MVC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C383CE322F82D90005AE189 /* Build configuration list for PBXProject "BabylonDemo-MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C383D1122F82D96005AE189 /* Debug */,
+				3C383D1222F82D96005AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C383D1322F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C383D1422F82D96005AE189 /* Debug */,
+				3C383D1522F82D96005AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C383D1622F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C383D1722F82D96005AE189 /* Debug */,
+				3C383D1822F82D96005AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C383D1922F82D96005AE189 /* Build configuration list for PBXNativeTarget "BabylonDemo-MVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C383D1A22F82D96005AE189 /* Debug */,
+				3C383D1B22F82D96005AE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C383CF222F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C383CF322F82D90005AE189 /* BabylonDemo_MVC.xcdatamodel */,
+			);
+			currentVersion = 3C383CF322F82D90005AE189 /* BabylonDemo_MVC.xcdatamodel */;
+			path = BabylonDemo_MVC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C383CE022F82D90005AE189 /* Project object */;
+}

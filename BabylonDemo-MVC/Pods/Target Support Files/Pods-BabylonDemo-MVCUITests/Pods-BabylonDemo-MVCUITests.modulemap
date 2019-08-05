@@ -1,0 +1,6 @@
+framework module Pods_BabylonDemo_MVCUITests {
+  umbrella header "Pods-BabylonDemo-MVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
