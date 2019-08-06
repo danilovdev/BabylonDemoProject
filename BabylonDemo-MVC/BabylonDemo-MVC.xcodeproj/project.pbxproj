@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		23D319DB7B1A3EF0515F9A45 /* Pods_BabylonDemo_MVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415C230D479DA889EFC51A1 /* Pods_BabylonDemo_MVC.framework */; };
 		3C383CEC22F82D90005AE189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CEB22F82D90005AE189 /* AppDelegate.swift */; };
-		3C383CEE22F82D90005AE189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CED22F82D90005AE189 /* ViewController.swift */; };
 		3C383CF122F82D90005AE189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CEF22F82D90005AE189 /* Main.storyboard */; };
 		3C383CF422F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C383CF222F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld */; };
 		3C383CF622F82D96005AE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CF522F82D96005AE189 /* Assets.xcassets */; };
 		3C383CF922F82D96005AE189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C383CF722F82D96005AE189 /* LaunchScreen.storyboard */; };
 		3C383D0422F82D96005AE189 /* BabylonDemo_MVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383D0322F82D96005AE189 /* BabylonDemo_MVCTests.swift */; };
 		3C383D0F22F82D96005AE189 /* BabylonDemo_MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383D0E22F82D96005AE189 /* BabylonDemo_MVCUITests.swift */; };
+		3C3D62B322F9358500ABFD18 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D62B222F9358500ABFD18 /* CoreDataManager.swift */; };
+		3C3D62B522F938A900ABFD18 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D62B422F938A900ABFD18 /* PostsController.swift */; };
+		3C3D62B722F938BB00ABFD18 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D62B622F938BB00ABFD18 /* DetailController.swift */; };
 		78F759B297AC33AA1C9413A0 /* Pods_BabylonDemo_MVCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9C6E2ECD1C7B84CAC5DAD8 /* Pods_BabylonDemo_MVCUITests.framework */; };
 		E290B672E066402725974088 /* Pods_BabylonDemo_MVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C4D192B37028D24CE89DA /* Pods_BabylonDemo_MVCTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +45,6 @@
 		2415C230D479DA889EFC51A1 /* Pods_BabylonDemo_MVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonDemo_MVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C383CE822F82D90005AE189 /* BabylonDemo-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BabylonDemo-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C383CEB22F82D90005AE189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C383CED22F82D90005AE189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C383CF022F82D90005AE189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C383CF322F82D90005AE189 /* BabylonDemo_MVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabylonDemo_MVC.xcdatamodel; sourceTree = "<group>"; };
 		3C383CF522F82D96005AE189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +56,9 @@
 		3C383D0A22F82D96005AE189 /* BabylonDemo-MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabylonDemo-MVCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C383D0E22F82D96005AE189 /* BabylonDemo_MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabylonDemo_MVCUITests.swift; sourceTree = "<group>"; };
 		3C383D1022F82D96005AE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3D62B222F9358500ABFD18 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3C3D62B422F938A900ABFD18 /* PostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
+		3C3D62B622F938BB00ABFD18 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		54E50B507C7D9EC5A2706243 /* Pods-BabylonDemo-MVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCUITests.debug.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCUITests/Pods-BabylonDemo-MVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		69DCECB17CCD2DA3CB34123F /* Pods-BabylonDemo-MVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonDemo-MVCTests.release.xcconfig"; path = "Target Support Files/Pods-BabylonDemo-MVCTests/Pods-BabylonDemo-MVCTests.release.xcconfig"; sourceTree = "<group>"; };
 		B13C4D192B37028D24CE89DA /* Pods_BabylonDemo_MVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonDemo_MVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,12 +131,13 @@
 			isa = PBXGroup;
 			children = (
 				3C383CEB22F82D90005AE189 /* AppDelegate.swift */,
-				3C383CED22F82D90005AE189 /* ViewController.swift */,
 				3C383CEF22F82D90005AE189 /* Main.storyboard */,
 				3C383CF522F82D96005AE189 /* Assets.xcassets */,
 				3C383CF722F82D96005AE189 /* LaunchScreen.storyboard */,
 				3C383CFA22F82D96005AE189 /* Info.plist */,
 				3C383CF222F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld */,
+				3C3D62B222F9358500ABFD18 /* CoreDataManager.swift */,
+				3C3D62B822F938CF00ABFD18 /* Controllers */,
 			);
 			path = "BabylonDemo-MVC";
 			sourceTree = "<group>";
@@ -155,6 +160,15 @@
 			path = "BabylonDemo-MVCUITests";
 			sourceTree = "<group>";
 		};
+		3C3D62B822F938CF00ABFD18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C3D62B422F938A900ABFD18 /* PostsController.swift */,
+				3C3D62B622F938BB00ABFD18 /* DetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		57017040CEA38265BD10FF13 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +179,6 @@
 				54E50B507C7D9EC5A2706243 /* Pods-BabylonDemo-MVCUITests.debug.xcconfig */,
 				0636C84501919AE1DC24D233 /* Pods-BabylonDemo-MVCUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -372,8 +385,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C383CEE22F82D90005AE189 /* ViewController.swift in Sources */,
 				3C383CEC22F82D90005AE189 /* AppDelegate.swift in Sources */,
+				3C3D62B322F9358500ABFD18 /* CoreDataManager.swift in Sources */,
+				3C3D62B522F938A900ABFD18 /* PostsController.swift in Sources */,
+				3C3D62B722F938BB00ABFD18 /* DetailController.swift in Sources */,
 				3C383CF422F82D90005AE189 /* BabylonDemo_MVC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
